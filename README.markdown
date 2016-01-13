@@ -1,5 +1,13 @@
 jQuery .scrollintoview() plugin <sup>(with :scrollable selector filter)</sup>
 ==
+
+##How does this fork differ from the original?
+
+This fork will run the "complete" function under ANY circumstances, including if no scrollable ancestor could be found
+
+Additionally, this fork does not offer a minified version of code. If you require a minified version, make it yourself.
+
+==
 This plugin makes it easy to scroll any element on your page into view. It scrolls in a user friendly way using animation (speed can be configured) so users never loose track where they moved within the current page. Default browser functionality simply jumps to some element which may confuse users greatly. This kind of behaviour is considered bad user experience, since pages look different above and below the fold. This means that users may as well think they were redirected to a different site (since it looks different) or at least page within the same site.
 
 How to use this plugin
